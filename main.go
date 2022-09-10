@@ -1,8 +1,8 @@
 package main
 
 import (
-	"golang-rest-api"
-	_"github.com/jinzhu/gorm/dialects/mysql"
+	"golang-rest-api/database"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 func main () {
